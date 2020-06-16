@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there", "Hello", "Good day", "Hey"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+	{"tag": "introcollege",
+         "patterns": ["how is the college", "tell me about the college", "introduction of the college", "summary of the college", "summary of dbit", "introduction of dbit", "tell me about don bosco"],
+         "responses": ["Don Bosco Institute of Technology is a private engineering college situated at Kurla West, Mumbai affiliated with the University of Mumbai. It has been granted a Religious Minority status Roman Catholics. The institute was awarded B++ grade in 2019 by NAAC. The campus has lush greenery throughout the year. The outdoors are spruced up by placing potted plants. Recent changes have been to the landscape, by addition of a lawn at the upper echelons which double as a playground and reception venue."],
+         "context_set": ""
+        },
+	{"tag": "wellbeing",
+         "patterns": ["Whats up", "How are you", "How you doing", "What's up", "Can you help me"],
+         "responses": ["I'm good, how may I help you", "Hi I'm fine, how can I help", "How can I assist you", "Can I help you with anything"],
+         "context_set": ""
+        },
+	{"tag": "outdoor",
+         "patterns": ["What sports", "what are the outdoor activities", "football", "basketball", "Cricket", "volleyball", "kabaddi", "what sports activities are there in the college"],
+         "responses": ["Don Bosco has a football ground, volley ball court and a basketball court"],
+         "context_set": ""
+        },
+	{"tag": "indoor",
+         "patterns": ["What indoor activities", "what are the indoor", "chess", "carrom", "table tennis", "can i play something"],
+         "responses": ["Don Bosco has provisions for indoor games like carrom, chess and table tennis."],
+         "context_set": ""
+        },
+	{"tag": "events",
+         "patterns": ["what are the cultural events in college", "what are the cultural activities in the college", "how many college festivals", "when is the college festivals"],
+         "responses": ["Don Bosco has mainly two cultural events. The intra-college technical festival organized by the college is called Colosseum. The college has started Hysteria from 2016 onwards, which is the cultural and sports mega fest for all the institutions that come under DBCL.The college also organizes Teknack and Game of Codes, an inter-collegiate online festival which is powered by the Association for Computing Machinery and Computer Society of India student chapters at Don Bosco."],
+         "context_set": ""
+        },
+	{"tag": "intake",
+         "patterns": ["What is the intake", "what is the intake for mech mechanical", "what is the intake for comps", "what is the intake for IT branch", "what is the intake for Info Tech branch", "what is the intake for Information Technology", "what is the intake for computer science", "minority", "catholic quota", "Intake"],
+         "responses": ["The college, under the University of Mumbai, offers bachelors degrees in engineering in the following programs, 120 seats in Mechanical engineering, 60 seats in Electronics and telecommunications engineering, Computer engineering, Information technology each. Granted a religious minority quota, 51 percent of all seats are reserved for Roman Catholics."],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["See you later", "Goodbye", "See ya", "Bye", "good bye"],
+         "responses": ["Goodbye"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old are you", "age"],
+         "responses": ["I am 20 years 5 months 16 days old", "Age is just a state of mind.", "What is age but a number"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name", "what can I call you", "whats your good name"],
+         "responses": ["You can call me Ava.", "I am Ava.", "the name is ava, ava AI."],
+         "context_set": ""
+        },
+	{"tag": "alive",
+         "patterns": ["Are you alive", "Are you human", "Are you a human being", "Do you have a concience", "Tell me about your self"],
+         "responses": ["Im not allowed to answer that.", "Im not allowed to disclose that.", "Its complicated.", "It depends how you define it."],
+         "context_set": ""
+        },
+	{"tag": "fees",
+         "patterns": ["what are the college fees", "what is the fee structure of the college", "how much money", "how much fees"],
+         "responses": ["The fees summed up for all the four years is 4 lakh 80 thousand, which is roughly 1 lakh 20 thousand a year."],
+         "context_set": ""
+        },
+        {"tag": "branches",
+         "patterns": ["what branches are there", "What engineering branch is there", "Which branches are there", "how many branches", "how many branches are there in college", "extc there", "Info tech", "mechanical", "computer", "civil", "Information technology", "aeronautical", "electrical", "which types of engineering", "what courses are provided", "what are the courses", "how many courses"],
+         "responses": ["Information Technology, Computer Science, Mechanical and Electronics and Communication Engineering. The programs are divided into 8 semesters spread over 4 years"],
+         "context_set": ""
+        },
+        {"tag": "timings",
+         "patterns": ["college open till", "what are the college hours", "Till what time is college open", "When is the college open", "when is the lunch break", "when is the break", "what time is the break", "what are the lunch timings", "what are the timings", "what are the college timings"],
+         "responses": ["College timings are Monday to Friday 9am to 5pm and there is a 15 minute break at 11am and, a 45 minute break at 1:15pm"],
+         "context_set": ""
+        },
+        {"tag": "ctime",
+         "patterns": ["what is the time", "what is the current time"],
+         "responses": [],
+         "context_set": ""
+        }
+   ]
+}

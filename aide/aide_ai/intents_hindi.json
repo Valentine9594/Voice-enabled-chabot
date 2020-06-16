@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["kaise ho", "Hello", "Hey", "hi", "namaste"],
+         "responses": ["Hello!", "phir milkar achha laga!", "aaj me aapki kya sahayta kar saktee hu?", "namaste"],
+         "context_set": ""
+        },
+	{"tag": "introcollege",
+         "patterns": ["college ke bare mai kuch bataaye", "college ka parichay dijiye", "don bosco ke bare mai batayein"],
+         "responses": ["don bosko insteetyoot oph teknolojee kurla pashchim, mumbee vishvavidyaalay se sambaddh ek nijee injeeniyaring kolej hai. ise dhaarmik alpasankhyak ka darja diya gaya hai roman kaitholik. sansthaan ko NAAC dvaara 2019 mein b ++ gred se sammaanit kiya gaya tha. parisar mein poore varsh hariyaalee rahatee hai. baahar ke kamaron ko poted plaants lagaakar ugaaya jaata hai. haal ke badalaav ooparee paristhiyon mein lon ke alaava, khel ke maidaan aur svaagat sthal ke roop mein dogune ho gae hai."],
+         "context_set": ""
+        },
+	{"tag": "wellbeing",
+         "patterns": ["kya haal hai", "aap kaise hai", "kya aap meree madad kar sakte hai"],
+         "responses": ["main achchha hoon, main aapakee kaise madad kar sakta hoon", "haay main theek hoon, main kaise madad kar sakta hoon", "main aapakee sahaayata kaise kar sakata hoon", "main tumhaaree kisee cheez mein madad kar sakata hoon kya"],
+         "context_set": ""
+        },
+	{"tag": "outdoor",
+         "patterns": ["college mein kitne outdoor khel", "college mein bahare khel kya hai", "football", "basketball", "cricket", "volleyball", "kabaddi"],
+         "responses": ["don bosko mein ek phutabol maidaan, volee bol kort aur ek baasketabol kort hai"],
+         "context_set": ""
+        },
+	{"tag": "indoor",
+         "patterns": ["kya indoor khel", "konse indoor khel hai", "shatranj", "caroom", "table tenis", "kya main kuch khel sakta hoon"],
+         "responses": ["don bosko mein kairam, shatranj aur table tenis jaise indoor khelon ke praavadhaan hai."],
+         "context_set": ""
+        },
+	{"tag": "events",
+         "patterns": ["college mein saanskrtik kaaryakram kya hai", "college mein cultural kaaryakram kya hai", "college mein saanskrtik activities kya hai", "kitne college festival", "college ka tyohaar kab hai"],
+         "responses": ["don bosko mein mukhy roop se do saanskrtik kaaryakram hai. college dvaara aayojit intra-kolej takaneekee utsav ko kolosiyam kaha jaata hai. kolej ne 2016 se histeeriya shuroo kiya hai, jo dbchl ke tahat aane vaale sabhee sansthaanon ke liye saanskrtik aur khel mega utsav hai. kolej bhee ek intar-kolejiet onalain utsav teknaik aur gem oph kod ka aayojan karata hai, jo esosieshan dvaara kampyooting dvaara sanchaalit hai. masheenaree aur kampyootar sosaitee oph indiya ke chhaatr don bosko mein adhyaayon."],
+         "context_set": ""
+        },
+	{"tag": "intake",
+         "patterns": ["kota kya hai", "kota kitna hai", "mechanical ka kota kitna hai", "comps ka kota kitna hai", "IT branch ka kota kitna hai", "Info Tech branch ka kota", "Information Technology ka kota kitna hai", "computer science ka kota kitna hai", "minority", "catholic quota", "kota"],
+         "responses": ["mumbai vishvavidyaalay ke tahat kolej, nimnalikhit kaaryakramon mein injeeniyaring mein snaatak kee digree, maikenikal injeeniyaring mein ek sau bess seeten, ilektroniks aur doorasanchaar injeeniyaring mein 60 seeten, kampyootar injeeniyaring, soochana praudyogikee pratyek pradaan karata hai. dhaarmik alpasankhyak kote se, sabhee seeton mein se 51 pratishat roman kaitholik ke lie aarakshit hai."],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["baad mein milte hai", "alvida", "Bye", "good bye"],
+         "responses": ["alvida"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["aapka umar", "aapka umar kitni hai", "umar"],
+         "responses": ["umr sirph mann kee ek avastha hai", "meri umar 20 saal hai", "umr kya hai lekin ek sankhya"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["aapka naam", "aapko kya bulau", "aapka naam kya hai", "main tumhe kya bula sakta hoon"],
+         "responses": ["aap mujhe Ava keh sakte hai.", "mai Ava hoon.", "mera naam ava, Ava AI hai."],
+         "context_set": ""
+        },
+	{"tag": "alive",
+         "patterns": ["kya aap jeevit hai", "kya tum insan ho", "apne baare mein kuch batao"],
+         "responses": ["mujhe javaab dene kee anumati nahi hai.", "yeh nirbhar kartaa hai ki aap ise kaise paribhaashit karte hai."],
+         "context_set": ""
+        },
+	{"tag": "fees",
+         "patterns": ["college kee phees kya hai", "college kee phees sanrachna kya hai", "kitna paisa", "kitne phees hai"],
+         "responses": ["sabhee chaar varshon ke lie dee gaee fees chaar laakh asi hajaar hai, jo ki lagabhag ek laakh bess hajaar hai."],
+         "context_set": ""
+        },
+        {"tag": "branches",
+         "patterns": ["kaun see branches hai", "kaun see engineering branch hai", "kaun see shaakhaen hai", "kitne branches hai", "extc hai", "Infotech", "mechanical", "computer", "civil", "Information technology", "aeronautical", "electrical", "kis prakaar kee engineering"],
+         "responses": ["Information Technology, Computer Science, Mechanical aur Electronics and Telecommunication Engineering. kaaryakram chaar varshon mein aat semestar mein alag kiya gaya hai"],
+         "context_set": ""
+        },
+        {"tag": "timings",
+         "patterns": ["college kab tak khula hai", "college ka samay", "college ka time" , "college ka samay kab tak hai", "college kab khula hai", "lunch break kabhi hai", "break kabhi hai", "break ka time", "lunch ka time"],
+         "responses": ["college ka samay somavaar se shukravaar subah nau baje se shaam paach baje tak hai aur subah gyaara baje pandhraa minute ka break hai, aur dophar savaa ek ko break hai"],
+         "context_set": ""
+        },
+        {"tag": "ctime",
+         "patterns": ["time kya hai", "abhi kitne baje", "abhi ka time", "aaj ka samay"],
+         "responses": [],
+         "context_set": ""
+        }
+   ]
+}
